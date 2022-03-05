@@ -1,0 +1,31 @@
+@charset "utf-8";
+h2{
+    color: rgb(12, 100, 86);
+    font-family: Arial;
+    background-color: rgba(155, 185, 169, 0.438);
+}
+body{
+    background-color: rgb(197, 236, 215);
+    
+}
+h1{
+    color: rgb(12, 100, 86);
+    font-family: Arial; 
+}
+form{
+    width: 250px;
+    border: solid 2px rgb(155, 185, 169);
+    padding: 7px;
+    margin: auto;
+}
+fieldset{
+    margin-bottom: 15px;
+    color: rgbrgb(12, 11, 11);
+    text-shadow: 1px 1px 1px rgba(24, 24, 24, 0.281);
+    font-size: large;
+    font-family: Arial;
+    border-color: rgb(155, 185, 169);
+    border-radius: 10px;
+    max-width: 300px;
+    
+}

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <div style="text-align:center;"> 
+    <h1>Calculadora de IMC</h1>
+    </div>
+    <div style="text-align: left;">
+    <form method="get" action="calculadoraimc.php">
+       <fieldset>
+       <legend><h2> Seu peso em kg:</h2></legend>
+        <input type="text" placeholder="50.3" name="peso" size="4" maxlength="4"/></fieldset>
+    <fieldset>
+        <legend> <h2>Sua altura em m:</h2></legend>
+        <input type="text" placeholder="1.65" name="altura" size="4" maxlength="4"/>
+    </fieldset>
+        <fieldset><legend><h2>Sexo</h2></legend>
+            <input type="radio" name="sexo" id="masc" value="homem"/>
+            <label for="masc">Masculino</label><br/>
+            <input type="radio" name="sexo" id="fem" value="mulher" checked/>
+            <label for="fem">Feminino</label>
+        </fieldset><br/>
+        <br/><input type="submit" value="Calcular"/>
+</form>
+    </div>
+</body>
+</html>
